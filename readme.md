@@ -10,4 +10,5 @@ Normal install via Composer.
 
 ```php
 $parsed = Travis\YAML::from_file($path)->to_array();
+$parsed = Travis\YAML::from_string($string)->to_array();
 ```
