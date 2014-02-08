@@ -1,7 +1,7 @@
 {
-    "name": "vendor/package",
-    "description": "",
-    "homepage": "",
+    "name": "travis/yaml",
+    "description": "A PHP library for parsing YAML files.",
+    "homepage": "https://github.com/swt83/php-yaml",
     "license": "MIT",
     "authors": [
         {
@@ -12,16 +12,16 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": ""
+            "url": "https://github.com/mustangostang/spyc.git"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.*"
+        "mustangostang/spyc": "*"
     },
     "autoload": {
         "psr-0": {
-            "Vendor\\": "src/"
+            "Travis\\": "src/"
         }
     },
     "minimum-stability": "dev"
