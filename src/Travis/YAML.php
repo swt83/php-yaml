@@ -23,7 +23,7 @@ class YAML {
         $class = __CLASS__;
 
         // return object
-        return new $class(\File::get($path));
+        return new $class(file_get_contents($path));
     }
 
     /**
